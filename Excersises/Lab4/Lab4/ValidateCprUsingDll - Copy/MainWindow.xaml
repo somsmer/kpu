@@ -1,0 +1,21 @@
+﻿<Window x:Class="ValidateCprUsingDll.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="525">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="160,19,0,0" Name="TextBoxCpr" TextWrapping="Wrap" Text="Please enter your cpr number" VerticalAlignment="Top" Width="168"/>
+        <Button Content="Check cpr" HorizontalAlignment="Left" Margin="35,55,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Name="TextBlockError" Margin="160,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Get dll info" HorizontalAlignment="Left" Margin="35,85,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox HorizontalAlignment="Left" Name="TextBoxName" Height="46" Margin="160,128,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="283"/>
+        <TextBox HorizontalAlignment="Left" Name="TextBoxVersion" Height="23" Margin="160,179,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="283"/>
+        <TextBox HorizontalAlignment="Left" Name="TextBoxLocation" Height="64" Margin="160,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283"/>
+        <TextBox HorizontalAlignment="Left" Name="TextBoxLoadedGAC" Height="23" Margin="160,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="35,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="Version:" HorizontalAlignment="Left" Margin="35,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.156,-0.24"/>
+        <Label Content="Location:" HorizontalAlignment="Left" Margin="35,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.082,0.66"/>
+        <Label Content="Loaded from GAC" HorizontalAlignment="Left" Margin="35,206,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cpr" HorizontalAlignment="Left" Margin="35,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.016,-0.126"/>
+
+    </Grid>
+</Window>

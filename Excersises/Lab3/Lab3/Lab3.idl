@@ -1,0 +1,18 @@
+// Lab3.idl : IDL source for Lab3
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Lab3.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(045CEE90-1CD5-4979-B5E3-45D4AE499F83),
+	version(1.0),
+]
+library Lab3Lib
+{
+	importlib("stdole2.tlb");
+};
+
